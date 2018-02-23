@@ -1,0 +1,22 @@
+{
+  "name": "golden",
+  "version": "1.0.0",
+  "description": "This is a psd to html",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmjadRathod/Golden.git"
+  },
+  "author": "Amjad Rathod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmjadRathod/Golden/issues"
+  },
+  "homepage": "https://github.com/AmjadRathod/Golden#readme",
+  "dependencies": {
+    "sass": "^1.0.0-beta.5.2"
+  }
+}
