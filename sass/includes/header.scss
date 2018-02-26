@@ -1,0 +1,83 @@
+
+
+
+.home-header{
+  background: linear-gradient(
+      rgba($color-black, 0.45),
+      rgba($color-black, 0.45)
+    ),
+     url("../images/bg-home.png");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.navbar-brand{
+  color: $color-primary;
+  font-size: 4rem;
+  &:link,
+  &:focus,
+  &:hover{
+    color: $color-primary;
+  }
+}
+.navbar-nav .nav-link{
+  font-size: 2rem;
+  color: $color-white;
+  transition: all .5s;
+  &:hover{
+    color: $color-hover;
+  }
+}
+.header{
+  .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color-white;
+  }
+    &__h3{
+      text-transform: capitalize;
+      font-size: 3rem;
+      font-weight: normal;
+
+    }
+    &__h1{
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 6.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{}

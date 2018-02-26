@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  color: #9fa1a5; }
+
+.my-btn {
+  text-transform: uppercase;
+  padding: 1.2rem 4rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background: #fed136;
+  border-radius: 3px;
+  transition: all .5s; }
+  .my-btn a:hover {
+    color: #fff;
+    text-decoration: none; }
+  .my-btn a {
+    font-weight: 700;
+    color: #fff;
+    transition: all .5s; }
+  .my-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #fed136; }
+  .my-btn:hover a {
+    color: #fed136; }
+
+.heading__main {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2;
+  color: black; }
+
+.heading__info {
+  font-size: 2rem; }
+
+.wrapper {
+  margin: 7rem; }
+
+.wrapper-y {
+  margin: 7rem auto; }
+
+.home-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/bg-home.png");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh; }
+
+.navbar-brand {
+  color: #fed136;
+  font-size: 4rem; }
+  .navbar-brand:link, .navbar-brand:focus, .navbar-brand:hover {
+    color: #fed136; }
+
+.navbar-nav .nav-link {
+  font-size: 2rem;
+  color: #fff;
+  transition: all .5s; }
+  .navbar-nav .nav-link:hover {
+    color: #fed136; }
+
+.header .info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; }
+
+.header__h3 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: normal; }
+
+.header__h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 6.5rem; }
+
+.about {
+  width: 100%;
+  padding: 10rem 0; }
+  .about__info {
+    text-align: right; }
+  .about__info-right {
+    text-align: left;
+    margin-left: -3rem; }
+  .about__date {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .about__title {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize; }
+  .about__sub-title {
+    font-size: 1.4rem;
+    width: 60%;
+    float: right; }
+  .about__sub-title-right {
+    font-size: 1.4rem;
+    width: 60%;
+    float: left; }
+  .about__story-continu {
+    height: 19rem;
+    width: 19rem;
+    background: #fed136;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: solid 7px #eee; }
+    .about__story-continu p {
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1;
+      text-transform: uppercase;
+      text-align: center; }
+      .about__story-continu p:first-child {
+        margin-top: 4rem; }
+
+.about-row {
+  margin: 7rem 0; }
+
+.portfolio {
+  width: 100%;
+  background: #eee;
+  padding: 10rem 0; }
+  .portfolio__box {
+    text-align: center; }
+    .portfolio__box img {
+      width: 100%;
+      z-index: 1; }
+    .portfolio__box:hover .img {
+      cursor: pointer;
+      z-index: 1000; }
+  .portfolio__img {
+    width: 100%; }
+  .portfolio__info {
+    background: #fff;
+    padding: 1rem 0; }
+  .portfolio__title {
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700; }
+  .portfolio__sub-title {
+    text-transform: capitalize; }
+
+.team {
+  width: 100%;
+  background: #eee;
+  padding: 10rem 0; }
+  .team__box {
+    text-align: center; }
+  .team__img {
+    height: 23.5rem;
+    width: 23rem;
+    border-radius: 50%; }
+  .team__name {
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    font-weight: 500; }
+  .team__post {
+    font-size: 1.4rem; }
+  .team__icon {
+    color: #fff; }
+    .team__icon i {
+      height: 4.2rem;
+      width: 4.2rem;
+      padding-top: .8rem;
+      border-radius: 50%;
+      margin: .5rem;
+      border: 2px solid black;
+      color: black;
+      box-sizing: border-box;
+      transition: all .5s; }
+  .team__description {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    text-align: center; }
+
+i:hover {
+  border: 2px solid transparent;
+  color: #fff; }
+
+.pinterest-icon:hover {
+  background-color: #cb2028; }
+
+.facebook-icon:hover {
+  background-color: #3b5998; }
+
+.google-icon:hover {
+  background-color: #d95232; }
+
+.twitter-icon:hover {
+  background-color: #00aced; }
+
+.service {
+  padding: 10rem 0; }
+  .service .service-list {
+    height: 50rem;
+    margin-top: 5rem; }
+    .service .service-list__icon {
+      height: 10rem;
+      width: 10rem;
+      border: solid 3px #fed136;
+      border-radius: 50%;
+      position: relative; }
+      .service .service-list__icon i {
+        color: #fed136; }
+      .service .service-list__icon .right-icon {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    .service .service-list__title {
+      padding-top: 2.5rem;
+      font-size: 1.8rem;
+      color: black;
+      font-weight: 700; }
+    .service .service-list__sub-title {
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 1.4rem;
+      line-height: 1.7; }
+
+.contact {
+  height: 100rem;
+  width: 100%;
+  padding: 10rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/contact-bg.png");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .contact__input {
+    background: #fff;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    margin: 1rem;
+    font-size: 1.4rem; }
+    .contact__input::placeholder {
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      font-weight: 500; }
+  .contact__textarea {
+    width: 100%;
+    height: 90%;
+    margin: 1rem;
+    border: none;
+    border-radius: 3px;
+    background: #fff; }
+    .contact__textarea::placeholder {
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      font-weight: 500;
+      padding: 1.5rem; }
+
+.footer__copy-right {
+  font-size: 1.6rem;
+  margin-top: 1rem; }
+
+.footer__icon {
+  color: #fff; }
+  .footer__icon i {
+    text-align: center;
+    height: 4.2rem;
+    width: 4.2rem;
+    padding-top: .8rem;
+    border-radius: 50%;
+    margin: .5rem;
+    border: 2px solid transparent;
+    color: #fff;
+    box-sizing: border-box;
+    transition: all .5s;
+    background: black; }
+  .footer__icon i:hover {
+    border: 2px solid transparent;
+    color: #fff; }

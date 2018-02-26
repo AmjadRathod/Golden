@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <title>Golden</title>
+  <title>Golden template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">Navbar</a>
+<header class="home-header">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-md navbar-faded">
+    <a class="navbar-brand ml-5" href="#">Golden</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mr-5">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" href="#">Service</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+    <section class="header ">
+      <div class="info d-flex flex-column">
+        <h3 class="header__h3 h2 align-self-center pb-3">Welcome to our studio!</h3>
+        <h3 class="header__h1 h1 align-self-center pb-5 pt-2">it's nice to meet you</h3>
+        <div class="my-btn align-self-center pt-3">
+          <a href="#">tell me more</a>
+        </div>
+      </div>
+    </section>
 </header>
 
 
@@ -51,6 +66,82 @@
 
 
 
+<main>
+<section class="service">
+  <div class="heading d-flex flex-column">
+    <h1 class="d-flex align-self-center heading__main">services</h1>
+    <p class="d-flex align-self-center heading__info">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="service-list d-flex flex-column">
+          <div class="service-list__icon d-flex align-self-center">
+            <i class="fas fa-shopping-cart fa-5x d-flex align-self-center m-auto"></i>
+          </div>
+          <div class="service-list__title d-flex align-self-center">
+            E-commerce
+          </div>
+          <div class="service-list__sub-title d-flex align-self-center">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="service-list d-flex flex-column">
+          <div class="service-list__icon d-flex align-self-center">
+            <i class="fas fa-laptop fa-5x  d-flex align-self-center m-auto"></i>
+            <i class="fas fa-check right-icon fa-2x"></i>
+
+          </div>
+          <div class="service-list__title d-flex align-self-center">
+            Responsive web
+          </div>
+          <div class="service-list__sub-title d-flex align-self-center">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="service-list d-flex flex-column">
+          <div class="service-list__icon d-flex align-self-center">
+            <i class="fab fa-expeditedssl fa-5x  d-flex align-self-center m-auto"></i>
+
+          </div>
+          <div class="service-list__title d-flex align-self-center">
+            Web-security
+          </div>
+          <div class="service-list__sub-title d-flex align-self-center">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -62,8 +153,456 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<section class="portfolio">
+  <div class="heading d-flex flex-column">
+    <h1 class="d-flex align-self-center heading__main">our portfolio</h1>
+    <p class="d-flex align-self-center heading__info">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+  </div>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col">
+        <div class="portfolio__box">
+          <div class="portfolio__img">
+            <img src="images/p1.png" alt="portfolio image" class="img" />
+          </div>
+          <div class="portfolio__info d-flex flex-column">
+            <h3  class="portfolio__title d-flex align-self-center">ebony & ivory</h3>
+            <p class="portfolio__sub-title d-flex align-self-center">
+              branding
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="portfolio__box">
+          <div class="portfolio__img">
+            <img src="images/p2.png" alt="portfolio image" class="img"/>
+          </div>
+          <div class="portfolio__info d-flex flex-column">
+            <h3  class="portfolio__title d-flex align-self-center">ebony & ivory</h3>
+            <p class="portfolio__sub-title d-flex align-self-center">
+              branding
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="portfolio__box">
+          <div class="portfolio__img">
+            <img src="images/p3.png" alt="portfolio image" />
+          </div>
+          <div class="portfolio__info d-flex flex-column">
+            <h3  class="portfolio__title d-flex align-self-center">ebony & ivory</h3>
+            <p class="portfolio__sub-title d-flex align-self-center">
+              branding
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row mt-5">
+      <div class="col">
+        <div class="portfolio__box">
+          <div class="portfolio__img">
+            <img src="images/p4.png" alt="portfolio image" />
+          </div>
+          <div class="portfolio__info d-flex flex-column">
+            <h3  class="portfolio__title d-flex align-self-center">ebony & ivory</h3>
+            <p class="portfolio__sub-title d-flex align-self-center">
+              branding
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="portfolio__box">
+          <div class="portfolio__img">
+            <img src="images/p5.png" alt="portfolio image" />
+          </div>
+          <div class="portfolio__info d-flex flex-column">
+            <h3  class="portfolio__title d-flex align-self-center">ebony & ivory</h3>
+            <p class="portfolio__sub-title d-flex align-self-center">
+              branding
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="portfolio__box">
+          <div class="portfolio__img">
+            <img src="images/p6.png" alt="portfolio image" />
+          </div>
+          <div class="portfolio__info d-flex flex-column">
+            <h3  class="portfolio__title d-flex align-self-center">ebony & ivory</h3>
+            <p class="portfolio__sub-title d-flex align-self-center">
+              branding
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="about">
+  <div class="heading d-flex flex-column">
+    <h1 class="d-flex align-self-center heading__main">about us</h1>
+    <p class="d-flex align-self-center heading__info">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+  </div>
+  <div class="container">
+    <div class="row about-row ">
+      <div class="col-sm-5 col-xs-12">
+        <div class="about__info">
+          <p class="about__date">
+            july 2017
+          </p>
+          <p class="about__title">
+            Our humble beginings
+          </p>
+          <p class="about__sub-title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-7 col-xs-12">
+        <div class="col-sm-4 col-xs-12">
+          <div class="about__img">
+            <img src="images/a1.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="row about-row ">
+
+      <div class="col-sm-8 col-xs-12">
+        <div class="col-sm-8 col-xs-12">
+
+        </div>
+        <div class="col-sm-4 col-xs-12 ml-auto mr-3">
+          <div class="about__img-right d-flex">
+            <img src="images/a2.png" class="d-flex align-self-end" />
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="about__info-right">
+          <p class="about__date">
+            july 2017
+          </p>
+          <p class="about__title">
+            Our humble beginings
+          </p>
+          <p class="about__sub-title-right">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row about-row ">
+      <div class="col-sm-5 col-xs-12">
+        <div class="about__info">
+          <p class="about__date">
+            july 2017
+          </p>
+          <p class="about__title">
+            Our humble beginings
+          </p>
+          <p class="about__sub-title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-7 col-xs-12">
+        <div class="col-sm-4">
+          <div class="about__img">
+            <img src="images/a3.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="row about-row ">
+
+      <div class="col-sm-8 col-xs-12">
+        <div class="col-sm-8 col-xs-12">
+
+        </div>
+        <div class="col-sm-4 col-xs-12 ml-auto mr-3">
+          <div class="about__img-right d-flex">
+            <img src="images/a4.png" class="d-flex align-self-end" />
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="about__info-right">
+          <p class="about__date">
+            july 2017
+          </p>
+          <p class="about__title">
+            Our humble beginings
+          </p>
+          <p class="about__sub-title-right">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row about-row ">
+      <div class="col-sm-5 col-xs-12">
+
+      </div>
+      <div class="col-sm-7 col-xs-12">
+        <div class="col-sm-4 col-xs-12">
+          <div class="about__img ">
+            <div class="about__story-continu ">
+              <p>our</p>
+              <p>story</p>
+              <p>continues</p>
+              <p>...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="team">
+  <div class="heading d-flex flex-column">
+    <h1 class="d-flex align-self-center heading__main">our amazing team</h1>
+    <p class="d-flex align-self-center heading__info">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+  </div>
+  <div class="container">
+    <div class="row wrapper">
+      <div class="col">
+        <div class="team__box">
+          <div class="">
+            <img src="/images/t3.png" class="team__img">
+          </div>
+          <p class="team__name">
+            Amjad Rathod
+          </p>
+          <p class="team__post">
+            Web devloper
+          </p>
+          <div class="team__icon">
+            <a href="#"><i class="fab fa-twitter fa-2x twitter-icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-f fa-2x facebook-icon"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p fa-2x pinterest-icon"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="team__box">
+          <div class="">
+            <img src="/images/t2.png" class="team__img">
+          </div>
+          <p class="team__name">
+            Amjad Rathod
+          </p>
+          <p class="team__post">
+            Web devloper
+          </p>
+          <div class="team__icon">
+            <a href="#"><i class="fab fa-twitter fa-2x twitter-icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-f fa-2x facebook-icon"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g fa-2x google-icon"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="team__box">
+          <div class="">
+            <img src="/images/t4.png" class="team__img">
+          </div>
+          <p class="team__name">
+            Amjad Rathod
+          </p>
+          <p class="team__post">
+            Web devloper
+          </p>
+          <div class="team__icon">
+
+            <a href="#"><i class="fab fa-facebook-f fa-2x facebook-icon"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p fa-2x pinterest-icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <p class="team__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="logo">
+  <div class="container">
+    <div class="row wrapper-y">
+      <div class="col">
+        <img  src="/images/Envato.png" class="m-auto"/>
+      </div>
+      <div class="col">
+        <img  src="/images/WordPress.png" class="m-auto"/>
+      </div>
+      <div class="col">
+        <img  src="/images/Tuts+.png" class="m-auto"/>
+      </div>
+      <div class="col">
+        <img  src="/images/Microlancer.png" class="m-auto"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="contact">
+  <div class="heading d-flex flex-column">
+    <h1 class="d-flex align-self-center heading__main">contact us</h1>
+    <p class="d-flex align-self-center heading__info">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    </p>
+  </div>
+  <div class="container ">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col">
+          <input type="text" placeholder="your name *"  class="contact__input"/>
+          <input type="email" placeholder="your E-mail *" class="contact__input"/>
+          <input type="text" placeholder="subject *" class="contact__input"/>
+        </div>
+        <div class="col">
+          <textarea placeholder="your message *" class="contact__textarea"></textarea>
+
+          </textarea>
+        </div>
+      </div>
+      <div class="d-flex flex-column">
+        <div class="my-btn align-self-center pt-3">
+          <a href="#">send message</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-sm-5">
+          <p class="footer__copy-right">
+            &copy; Copyright 2018 amjadrathod.com
+          </p>
+        </div>
+        <div class="col-sm-7">
+          <div class="footer__icon ml-auto">
+            <a href="#"><i class="fab fa-twitter fa-2x twitter-icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-f fa-2x facebook-icon"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p fa-2x pinterest-icon"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g fa-2x google-icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>

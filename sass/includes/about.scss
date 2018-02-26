@@ -1,0 +1,60 @@
+.about{
+
+  width: 100%;
+  padding: 10rem 0;
+  &__info{
+    text-align: right;
+  }
+  &__info-right{
+    text-align: left;
+    margin-left: -3rem;
+  }
+  &__date{
+    color: $color-black;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__title{
+    color: $color-black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  &__sub-title{
+    font-size: 1.4rem;
+    width: 60%;
+    float: right;
+  }
+  &__sub-title-right{
+    font-size: 1.4rem;
+    width: 60%;
+    float: left;
+  }
+  &__story-continu{
+    height: 19rem;
+    width: 19rem;
+    background: $color-primary;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: solid 7px $color-font;
+
+    p{
+      color: $color-white;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1;
+      text-transform: uppercase;
+      text-align: center;
+
+      &:first-child{
+        margin-top: 4rem;
+      }
+    }
+  }
+
+}
+.about-row{
+  margin: 7rem 0;
+
+}

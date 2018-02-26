@@ -1,0 +1,38 @@
+.service{
+  padding: 10rem 0;
+
+
+  .service-list{
+    height: 50rem;
+    margin-top: 5rem;
+    &__icon{
+      height: 10rem;
+      width: 10rem;
+      border: solid 3px $color-primary;
+      border-radius: 50%;
+      position: relative;
+      i{
+        color: $color-primary;
+      }
+      .right-icon{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    &__title{
+      padding-top: 2.5rem;
+      font-size: 1.8rem;
+      color: $color-black;
+      font-weight: 700;
+
+    }
+    &__sub-title{
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 1.4rem;
+      line-height: 1.7;
+    }
+  }
+}

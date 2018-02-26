@@ -1,0 +1,36 @@
+.portfolio{
+  
+  width: 100%;
+  background:   $color-font;
+  padding: 10rem 0;
+  &__box{
+    text-align: center;
+    img{
+      width: 100%;
+      z-index: 1;
+      &:hover{
+
+      }
+    }
+    &:hover .img{
+
+      cursor: pointer;
+      z-index: 1000;
+    }
+  }
+  &__img{
+    width: 100%;
+  }
+  &__info{
+    background: $color-white;
+    padding: 1rem 0;
+  }
+  &__title{
+    color: $color-black;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  &__sub-title{
+    text-transform: capitalize;
+  }
+}
